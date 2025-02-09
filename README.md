@@ -38,11 +38,11 @@ Run the script with the required and optional parameters:
 
 ## Options 
 
-> `-u <url>`: Target URL (must include http:// or https://)
-> `-c <concurrency>`: Number of concurrent processes (default: 10)
-> `-t <timeout>`: Timeout in seconds for each request (default: 5)
-> `-a <user_agent>`: Custom User-Agent string (optional)
-> `-d <delay>`: Delay in seconds between requests (default: 0)
-> `-h`: Display the help message
+* `-u <url>`: Target URL (must include http:// or https://)
+* `-c <concurrency>`: Number of concurrent processes (default: 10)
+* `-t <timeout>`: Timeout in seconds for each request (default: 5)
+* `-a <user_agent>`: Custom User-Agent string (optional)
+* `-d <delay>`: Delay in seconds between requests (default: 0)
+* `-h`: Display the help message
 
 
