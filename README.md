@@ -45,4 +45,14 @@ Run the script with the required and optional parameters:
 * `-d <delay>`: Delay in seconds between requests (default: 0)
 * `-h`: Display the help message
 
+## Output
+* **Console Output:** Displays scanning progress, success/failure messages, and a final summary.
+* **Log Files:**
+  * `scan_results.log`: Contains detailed logs of each HTTP request with timestamps and response codes.
+  * `admin_hits.log:` Contains a list of URLs that returned a 200 response and include admin-related keywords.
+ 
+## Disclaimer
+WARNING: Use this script only on websites for which you have explicit authorization. Unauthorized scanning is illegal and unethical.
 
+## Contributing
+Contributions, issues, and feature requests are welcome! Please feel free to open an issue or submit a pull request.
