@@ -29,3 +29,20 @@ cd admin-page-scanner
 chmod +x scan_admin.sh
 ```
 
+## Usage 
+
+Run the script with the required and optional parameters:
+```bash
+./scan_admin.sh -u <url> [-c concurrency] [-t timeout] [-a user_agent] [-d delay]
+```
+
+## Options 
+
+. `-u <url>`: Target URL (must include http:// or https://)
+. -c <concurrency>: Number of concurrent processes (default: 10)
+. -t <timeout>: Timeout in seconds for each request (default: 5)
+. -a <user_agent>: Custom User-Agent string (optional)
+. -d <delay>: Delay in seconds between requests (default: 0)
+. -h: Display the help message
+
+
